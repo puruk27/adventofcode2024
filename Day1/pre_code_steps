@@ -1,0 +1,25 @@
+ We'll follow these steps:
+
+Count how many times each number from the right list appears.
+Multiply each number from the left list by its occurrence count from the right list.
+Sum the results.
+Example Lists:
+Left List: 3, 4, 2, 1, 3, 3
+Right List: 4, 3, 5, 3, 9, 3
+
+Step 1: Count Occurrences in the Right List
+3 → 3 times
+4 → 1 time
+2 → 0 times
+1 → 0 times
+Step 2: Multiply and Add
+3 * 3 = 9
+4 * 1 = 4
+2 * 0 = 0
+1 * 0 = 0
+3 * 3 = 9
+3 * 3 = 9
+Step 3: Sum the Results
+9 + 4 + 0 + 0 + 9 + 9 = 31
+
+The similarity score is 31.
