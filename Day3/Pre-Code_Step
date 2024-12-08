@@ -1,0 +1,8 @@
+step1) Read the inputFile:
+find valid pattern thrugh Reg ex 
+Add enable or disable future for The do() and don't() .
+like : If we encounter do(), we set is_mul_enabled = True, meaning that future mul(X,Y) instructions are enabled.
+If we encounter don't(), we set is_mul_enabled = False, disabling future mul(X,Y) instructions.
+If we encounter a valid mul(X,Y) instruction and mul is enabled
+compute X * Y and add it to the total.
+return total 
